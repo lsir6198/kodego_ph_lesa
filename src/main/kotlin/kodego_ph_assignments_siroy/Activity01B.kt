@@ -55,8 +55,7 @@ fun main(){
         println("***********************************************************")
         println("Types of Non-Fiction Book:")
         println("$nonfictionbooks")
-        readLine()
-        main()
+
     }
     else if (option == "BORROW BOOKS"){
         println(fictionbooks)

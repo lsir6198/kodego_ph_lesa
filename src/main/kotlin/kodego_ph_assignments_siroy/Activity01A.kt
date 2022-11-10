@@ -1,6 +1,4 @@
 package kodego_ph_assignments_siroy
-
-
 //You are tasked to create a directory of the students taking this course.
 //The data will be used to send updates regarding the classes.
 //There is also a need to know the progress of the students during the progress of this course.
