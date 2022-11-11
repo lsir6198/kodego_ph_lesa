@@ -1,7 +1,5 @@
 //Activity 03 - A
 //Add try-catch to Activity 01 - D, Activity 01 - E, Activity 01 - F
-package Exercises
-
 
 fun main () {
 //Create an application that will accept 2 string inputs.
