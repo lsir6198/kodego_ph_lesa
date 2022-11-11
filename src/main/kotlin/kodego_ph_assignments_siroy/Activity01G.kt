@@ -4,7 +4,7 @@
 
 fun main(){
 
-    var primenumbers = setOf<Int>(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
+    var primeNumbers = setOf<Int>(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
 
     print("Choose a Prime Number from 1 to 100: ")
     var number1:Int = readln().toInt()
@@ -22,7 +22,7 @@ fun main(){
         println("$number1 is the bigger value and $number2 is the lower value")
     }
     println("=====================================================")
-    println("Examples of Prime Numbers from 1 to 100 $primenumbers")
+    println("Examples of Prime Numbers from 1 to 100 $primeNumbers")
     println("=====================================================")
     print("End of code")
 }

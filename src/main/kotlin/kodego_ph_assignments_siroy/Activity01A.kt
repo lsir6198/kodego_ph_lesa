@@ -19,16 +19,16 @@ fun main(){
     println("ADMIN LOGIN")
     println("============")
     print("Username: ")
-    var username: String = readln().uppercase()
+    var userName: String = readln().uppercase()
     var user = "Sally"
-    username = user
+    userName = user
 
     print("Password: ")
     var password:String = readln().lowercase()
-    var userpassword = "sally123"
-    password = userpassword
+    var userPassword = "sally123"
+    password = userPassword
 
-    if ((username == user)&&(password == userpassword)){
+    if ((userName == user)&&(password == userPassword)){
         println("==========================================================")
         println("==========================================================")
         println("Directory of Students:")

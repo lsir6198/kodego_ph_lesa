@@ -4,22 +4,22 @@
 //Use the proper data types.
 
 fun main(){
-    var Items = "Fiction Books, Non-Fiction Books"
+    var items = "Fiction Books, Non-Fiction Books"
 
-    var fictionbooks = "Romeo and Juliet\n" +
+    var fictionBooks = "Romeo and Juliet\n" +
             "Peter Pan, untold series\n" +
             "Science and Beyond\n" +
             "Conjuring Series of Stories Second Edition\n" +
             "The Bureau of Magical Things"
 
-    var nonfictionbooks = "Jose Rizal Biography/Autobiography, Memoirs by Elizabeth Gilbert, " +
+    var nonFictionBooks = "Jose Rizal Biography/Autobiography, Memoirs by Elizabeth Gilbert, " +
             "How to Overcome Frustrations, The Power of Prayers, World Encyclopedias, Wiki Dictionary and Terms"
 
-    var FictionBooks = "A fictional book is a text created specifically for a work in an imaginary narrative that is referred to, depicted, " +
+    var fictionBooksDescription = "A fictional book is a text created specifically for a work in an imaginary narrative that is referred to, depicted, " +
             "or excerpted in a story, book, film, or other fictional work, and which exists only in one or more fictional works. " +
             "A fictional book may be created to add realism or depth to a larger fictional work."
 
-    var NonFictionBooks = "Nonfiction books are based on factual information or real-life events. " +
+    var nonFictionBooksDescription = "Nonfiction books are based on factual information or real-life events. " +
             "It makes the declaration that it is not fiction because the reader should understand that what is contained inside the book is not imagined and has a basis in the real world."
 
     println("==================================================")
@@ -38,28 +38,28 @@ fun main(){
         println("NOTE: YOU ONLY VIEWED THE AVAILABLE BOOKS")
         println()
         println("Types of Books and Descriptions")
-        println("$Items")
+        println("$items")
         println("***********************************************************")
         println("***********************************************************")
         println("What is a Fiction Books:")
-        println("$FictionBooks")
+        println("$fictionBooks")
         println()
         println("***********************************************************")
         println("Types of Fiction Books:")
-        println("$fictionbooks")
+        println("$fictionBooks")
         println("***********************************************************")
         println("***********************************************************")
         println("What is a Non-Fiction Books:")
-        println("$NonFictionBooks")
+        println("$nonFictionBooksDescription")
         println()
         println("***********************************************************")
         println("Types of Non-Fiction Book:")
-        println("$nonfictionbooks")
+        println("$nonFictionBooks")
 
     }
     else if (option == "BORROW BOOKS"){
-        println(fictionbooks)
-        println(nonfictionbooks)
+        println(fictionBooks)
+        println(nonFictionBooks)
         println("==============================")
         println("What books do you want to borrow?")
         var borrowbooks = readln().lowercase()
@@ -70,13 +70,13 @@ fun main(){
 
         println("Your student ID is $studentID")
         println("Your First Name: ")
-        var firstname = readln().uppercase()
+        var firstName = readln().uppercase()
 
         println("Your Last Name: ")
-        var lastname = readln().uppercase()
+        var lastName = readln().uppercase()
 
         println()
-        println("Borrower's Details: $firstname $lastname, and Student ID: $studentID")
+        println("Borrower's Details: $firstName $lastName, and Student ID: $studentID")
         println()
         println("You Successfully borrowed book/book's from Public Library")
         println("Borrower's reference ID: 123456. Take note of your reference ID")

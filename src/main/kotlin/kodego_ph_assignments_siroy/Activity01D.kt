@@ -10,7 +10,6 @@ fun main() {
     var quotient: Double = 0.00
 
 
-
     print("Enter Amount:")
     var amount1: Double = readln().toDouble()
 
@@ -31,8 +30,8 @@ fun main() {
     } while (answer == "Yes")
 
     print("Divided the value by how many?")
-    var valueamount: Int = readln().toInt()
+    var valueAmount: Int = readln().toInt()
 
     print("Divided Total Amount is ")
-    println(quotient / valueamount)
+    println(quotient / valueAmount)
 }

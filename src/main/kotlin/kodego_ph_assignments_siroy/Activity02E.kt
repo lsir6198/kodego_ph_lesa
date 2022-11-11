@@ -83,9 +83,9 @@ class PublicLibrarySystem{
 
             println("==============================")
             println("What books do you want to borrow?")
-            var borrowbooks = readln().uppercase()
+            var borrowBook = readln().uppercase()
 
-            println("You choose $borrowbooks")
+            println("You choose $borrowBook")
 
             println("Do you want to borrow another book?")
             var answer = readln().lowercase()
@@ -98,19 +98,18 @@ class PublicLibrarySystem{
                 println("Available Books for NonFiction Section")
                 println(nonFictionBooks)
                 println()
-                println("$borrowbooks NOT AVAILABLE")
+                println("$borrowBook NOT AVAILABLE")
                 println()
                 println("Choose another Book")
-                var borrowbooks2 = readln().uppercase()
+                var borrowBooks2 = readln().uppercase()
 
-                if (borrowbooks2 == borrowbooks) {
+                if (borrowBooks2 == borrowBook) {
                     println("You already borrowed this book/Not Available")
                     println("Choose another Book")
-                    borrowbooks2 = readln().uppercase()
+                    var borrowBooks2 = readln().uppercase()
 
                 }
-
-                println("You choose $borrowbooks and $borrowbooks2")
+                println("You choose $borrowBook and $borrowBooks2")
                 println()
                 println("NOTE: ONLY TWO BOOKS CAN BE BORROWED")
             }
