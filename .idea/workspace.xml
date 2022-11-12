@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20cf471-eb8f-4669-8b5f-fb51261e5ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01H.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01H.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

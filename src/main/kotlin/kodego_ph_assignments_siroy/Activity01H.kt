@@ -4,7 +4,7 @@
 
 fun main(){
 
-    var primeNumbers = setOf<Int>(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
+    var primeNumbers = listOf(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
 
     println("=====================================================")
     println("Examples of Prime Numbers from 1 to 100 $primeNumbers")
@@ -28,10 +28,12 @@ fun main(){
     println()
     if (number1 < number2){
         println("============================================================")
-        print("$number2 is the bigger value and $number1 is the lower value")
+        println("$number2 is the bigger value and $number1 is the lower value")
     }
     else {
         println("============================================================")
-        print("$number1 is the bigger value and $number2 is the lower value: ")
+        println("$number1 is the bigger value and $number2 is the lower value: ")
     }
+    println("================")
+    println("END OF CODE")
 }
