@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20cf471-eb8f-4669-8b5f-fb51261e5ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03A01F.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01J.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03A01E.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03A01E.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01F.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01G.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01G.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01H.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01H.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01I.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01I.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02D.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,16 +27,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Lesa Siroy/Kodego_Project"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.Activity02FKt">
-    <configuration name="Activity02BKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Activity02BKt" />
+}]]></component>
+  <component name="RunManager" selected="Kotlin.Activity01DKt">
+    <configuration name="Activity01DKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity01DKt" />
       <module name="kodego_ph_lesa" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,11 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Activity01DKt" />
         <item itemvalue="Kotlin.Activity02FKt" />
         <item itemvalue="Kotlin.Activity02EKt" />
         <item itemvalue="Kotlin.Activity02DKt" />
         <item itemvalue="Kotlin.Activity02CKt" />
-        <item itemvalue="Kotlin.Activity02BKt" />
       </list>
     </recent_temporary>
   </component>

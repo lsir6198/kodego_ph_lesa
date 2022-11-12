@@ -1,26 +1,33 @@
-fun main() {
-// Create an application that will accept 1 string.
-// Your application will print “Palindrome” if the string is a palindrome.
+fun main () {
 
-    print("Enter a word: ")
-    var word = readln().lowercase()
+//Create an application that will accept 2 string inputs.
+// Your application will print all unique characters in both Strings.
 
-    print("Next step is to check if word is Palindrome, Do you want to proceed? ")
-    var answer = readln().lowercase()
+    print("Enter your Name:")
+    var name = readln().lowercase()
 
-    if (answer == "yes")
-    {
-        println("Checking the word......$word ")
-        print("If reversed : ")
-        println(word.reversed())
-        print("word length is ")
-        println(word.length)
-        if (word == word.reversed())
-        {
-            println("Word is Palindrome.")
-        } else //if (word != word.reversed())
-        {
-            println("Word is not Palindrome.")
-        }
+    println("Name is $name")
+
+
+    print("Enter your Occupation:")
+    var occupation = readln().lowercase()
+
+    println("Occupation is $occupation")
+
+    var setA = mutableSetOf<Char>()
+    var setB = mutableSetOf<Char>()
+
+    for (char in name) {
+        setA.add(char)
     }
+    println("The unique letters in set A is ${setA.minus((setB))}")
+
+    for (char in occupation) {
+        setB.add(char)
+    }
+    println("The unique letters in set B is ${setB.minus(setA)}")
+
+    println(setA.union(setB))
+    print("Intersecting letters: ")
+    println(setA.intersect(setB))
 }
