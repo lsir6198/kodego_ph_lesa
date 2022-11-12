@@ -5,33 +5,36 @@ The total of the 5  input will be divided by the answer in the second question i
 Note: Error checking must be done.
 */
 
-fun main() {
+fun main(){
 
-    var quotient: Double = 0.00
-
+    var sum: Double = 0.00
+    var amount1 = 0.00
 
     print("Enter Amount:")
-    var amount1: Double = readln().toDouble()
+    var amount: Double = readln().toDouble()
+    amount1 = amount
+    println("Amount is $amount")
 
-    do {
-        println("Do you want to add another amount?")
-        var answer = readln().lowercase()
+    println("Do you want to add another amount?")
+    var answer = readln().lowercase()
+    var ctr = 1
 
         if (answer == "yes") {
+            while (ctr <= 5) {
             print("Enter another Amount:")
             var amount2: Double = readln().toDouble()
-            var amount1 = amount1 + amount2
-            var totalamount = amount1
-            quotient = totalamount
-            println("Total amount is : $totalamount")
+
+            amount1 = amount1 + amount2
+            sum = amount1
+            println("Total amount is : $amount1")
+            ctr++
         }
 
-
-    } while (answer == "Yes")
+    }
 
     print("Divided the value by how many?")
     var valueAmount: Int = readln().toInt()
 
     print("Divided Total Amount is ")
-    println(quotient / valueAmount)
+    println(sum / valueAmount)
 }
