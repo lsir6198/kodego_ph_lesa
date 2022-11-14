@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f20cf471-eb8f-4669-8b5f-fb51261e5ab8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01H.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01H.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Lesa Siroy/Kodego_Project"
+    "last_opened_file_path": "C:/Users/Lesa Siroy/kodego_ph_lesa"
   }
 }]]></component>
   <component name="RunManager" selected="Kotlin.Testcode3Kt">
@@ -39,8 +38,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity02DKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Activity02DKt" />
+    <configuration name="Activity01IKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity01IKt" />
       <module name="kodego_ph_lesa" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,10 +69,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.Testcode3Kt" />
+        <item itemvalue="Kotlin.Activity01IKt" />
         <item itemvalue="Kotlin.Activity01DKt" />
         <item itemvalue="Kotlin.Activity02FKt" />
         <item itemvalue="Kotlin.Activity02EKt" />
-        <item itemvalue="Kotlin.Activity02DKt" />
       </list>
     </recent_temporary>
   </component>
