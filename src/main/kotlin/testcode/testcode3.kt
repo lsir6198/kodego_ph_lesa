@@ -3,7 +3,6 @@
 Goal : List of Items bought, how many items were bought and total cost.
 Scope :Data Structures*/
 
-package kodego_ph_assignments_siroy
 fun main() {
 
 
@@ -15,7 +14,7 @@ fun main() {
 
     var produceItemPrice: Double = 15.00
     var pantryDairyItemsPrice: Double = 20.00
-    var meatPrice: Double = 350.00
+    var meatPrice: Double = 250.00
     var spicesPrice: Double = 10.00
 
     var user = "Cashier"
