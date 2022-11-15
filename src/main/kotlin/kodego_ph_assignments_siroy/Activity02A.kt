@@ -5,7 +5,7 @@ fun main() {
     var bscsNames = arrayListOf("1. Lesa Siroy", "2. Asel Omega", "3. Lei Zah")
     var bsceNames = arrayListOf("1. Marc Quinn", "2. Lyan Keem", "3. Ryan Neil")
     var bsitNames = arrayListOf("1. Sally Milagrosa", "2. Leonardo Lopez", "3. Anacorita Omega")
-    var courses: String = "BSCS, BSCE, BSIT"
+    var courses = arrayListOf("BSCS", "BSCE", "BSIT")
 
 
     println("ADMIN LOGIN")
@@ -18,7 +18,7 @@ fun main() {
     print("Password: ")
     var password:String = readln().lowercase()
     var userPassword = "sally123"
-    password = userPassword
+    //password = userPassword
 
 
     if ((userName == user)&&(password == userPassword)) {
@@ -135,23 +135,24 @@ fun main() {
             println("Failed")
         }
 
-        readLine()
         println("==========================================================")
         println(courses)
-        print("Select Course to check the list of Students Enrolled:")
+        print("Select Course to check the list of Students Enrolled: ")
         var course: String = readln().uppercase()
 
-        if (course == "BSCS") {
+        if (course == courses[0]) {
+            println(bscsNames)
+
+        }
+        else if (course == courses[1]) {
             println(bsceNames)
 
         }
-        else if (course == "BSCE") {
-            println(bsceNames)
-
-        }
-        else //if (course == "BSIT")
+        else //if (course == courses[2])
         {
             println(bsitNames)
         }
+    }else{
+        println("Credentials didn't match our records!!!")
     }
 }

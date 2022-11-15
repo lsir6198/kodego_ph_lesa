@@ -4,7 +4,7 @@ Implement Activity 01 -  B using data structure.*/
 
 fun main() {
 
-    var items = "Fiction Books, Non-Fiction Books"
+    var items = arrayOf("1. Fiction Books", "2. Non-Fiction Books")
 
     var fictionBooks = arrayListOf("1. Romeo and Juliet","2. Peter Pan, untold series","3. Science and Beyond","4. Conjuring Series of Stories Second Edition","5. The Bureau of Magical Things")
 
@@ -21,20 +21,21 @@ fun main() {
     println("==================================================")
     println("Welcome to Ormoc City Public Library Online System")
     println("==================================================")
-    println("VIEW AVAILABLE BOOKS")
-    println("BORROW BOOKS")
+    println("1. VIEW AVAILABLE BOOKS")
+    println("2. BORROW BOOKS")
     println("NOTE: For all return books, Kindly visit the Public Library")
     println("===========================================================")
     println()
     print("SELECT FROM THE OPTIONS: ")
     var option = readln().uppercase()
 
-    if (option == "VIEW AVAILABLE BOOKS") {
+    if ((option == "VIEW AVAILABLE BOOKS")||(option == "1")) {
         println("===========================================================")
         println("NOTE: YOU ONLY VIEWED THE AVAILABLE BOOKS")
         println()
         println("Types of Books and Descriptions")
-        println("$items")
+        println(items[0])
+        println(items[1])
         println("***********************************************************")
         println("***********************************************************")
         println("What is a Fiction Books:")
@@ -60,9 +61,8 @@ fun main() {
         println(nonFictionBooks[3])
         println(nonFictionBooks[4])
         println(nonFictionBooks[5])
-        readLine()
 
-    } else if (option == "BORROW BOOKS") {
+    } else if ((option == "BORROW BOOKS")||(option == "2")) {
         println(fictionBooks)
         println(nonFictionBooks)
         println("==============================")
@@ -117,12 +117,11 @@ fun main() {
                 println("Borrower's reference ID: 123456. Take note of your reference ID")
                 println()
                 println("Kindly return the books within 2weeks from Date Borrowed")
-                println("REMINDERS: FOR ALL RETURNS BOOKS KINDLY VISIT THE PUBLIC LIBRARY. DON'T FORGET TO BRING YOUR STUDENT ID/ANY VALID ID'S")
+                println("REMINDERS: FOR ALL RETURN BOOKS KINDLY VISIT THE PUBLIC LIBRARY. DON'T FORGET TO BRING YOUR STUDENT ID/ANY VALID ID'S. ALSO TAKE NOTE OR YOUR BORROWER REFERENCE NUMBER.")
 
             }
 
             println()
             println("Thank you for visiting Ormoc City Public Library")
-            readLine()
 }
 

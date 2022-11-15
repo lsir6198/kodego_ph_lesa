@@ -2,8 +2,8 @@
 //Implement Activity 01 - C(automate an inventory system for a grocery) using data structure.
 
 fun main() {
-    var items = "1. Produce Items, 2. Pantry and Dairy Items, 3. Meat and Spices"
-    var produceItems = arrayListOf("1. potatoes","2. onions","3. tomatoes","4. green peppers","5. celery","6. carrots and lettuce")
+    var items = arrayOf("1. Produce Items", "2. Pantry and Dairy Items", "3. Meat and Spices")
+    var produceItems = arrayListOf("1. potatoes","2. onions","3. tomatoes","4. green peppers","5. celery","6. carrots","7. lettuce")
     var pantryDairyItems = arrayListOf("1. canned goods","2. grains","3. bread","4. tortilla wraps")
     var meat = arrayListOf("1. pork","2. beef","3. chicken","4. lamb")
     var spices = arrayListOf("1. black pepper","2. salt","3. garlic powder","4. onion powder and paprika","5. vinegar","6. vanilla")
@@ -11,7 +11,11 @@ fun main() {
 
     println("Below are the list of available items")
     println("List of Items:")
-    println("$items")
+    println(items[0])
+    println(items[1])
+    println(items[2])
+    print("Press Enter to Proceed")
+    readLine()
     println("=====================================")
     println(produceItems[0])
     println(produceItems[1])
@@ -55,9 +59,30 @@ fun main() {
         print("Add an Item/s: ")
         var additem = readln().lowercase()
 
-        print("Added Item: $additem")
+        println("Added Item: $additem")
+
+        println("Do you want to add another Item: ")
+        var answer2 = readln().lowercase()
+
+        if (answer2 == "yes"){
+            println(produceItems)
+            println("==============")
+            println(pantryDairyItems)
+            println("==============")
+            println(meat)
+            println("==============")
+            println(spices)
+            println()
+            println("Add another Item:")
+            var addItem2 = readln().lowercase()
+
+            println("Total Item Added:")
+            println("$additem, $addItem2")
+
+        }
 
     }
+    println("Thank You!!!")
 }
 
 

@@ -9,22 +9,22 @@ fun main() {
     println("==================================================")
     println("Welcome to Ormoc City Public Library Online System")
     println("==================================================")
-    println("VIEW AVAILABLE BOOKS")
-    println("BORROW BOOKS")
+    println("1. VIEW AVAILABLE BOOKS")
+    println("2. BORROW BOOKS")
     println("NOTE: For all return books, Kindly visit the Public Library")
     println("===========================================================")
     println()
     print("SELECT FROM THE OPTIONS: ")
     var option = readln().uppercase()
 
-    if (option == "VIEW AVAILABLE BOOKS") {
+    if ((option == "VIEW AVAILABLE BOOKS")||(option == "1")) {
         println("===========================================================")
         println("NOTE: YOU ONLY VIEWED THE AVAILABLE BOOKS")
         println()
         PublicLibrarySystem().viewAvailableBook()
 
     }
-    else if (option == "BORROW BOOKS") {
+    else if ((option == "BORROW BOOKS")||(option == "2")) {
         println(availableFictionBooks)
         println(availableNonFictionBooks)
         PublicLibrarySystem().borrowBooks()
@@ -34,7 +34,7 @@ fun main() {
 }
 
 class PublicLibrarySystem{
-    var items = "Fiction Books, Non-Fiction Books"
+    var items = arrayOf("1. FICTION BOOKS", "2. NON FICTION BOOKS")
 
     var fictionBooks = arrayListOf("1. Romeo and Juliet","2. Peter Pan, untold series","3. Science and Beyond","4. Conjuring Series of Stories Second Edition","5. The Bureau of Magical Things")
 
@@ -52,7 +52,10 @@ class PublicLibrarySystem{
     fun viewAvailableBook(){
 
             println("Types of Books and Descriptions")
-            println(items)
+            println(items[0])
+            println(items[1])
+            print("Press Enter to Continue")
+            readLine()
             println("***********************************************************")
             println("What is a Fiction Books:")
             println("$fictionBooksDescription")
@@ -131,7 +134,7 @@ class PublicLibrarySystem{
             println("Borrower's reference ID: 123456. Take note of your reference ID")
             println()
             println("Kindly return the books within 2weeks from Date Borrowed")
-            println("REMINDERS: FOR ALL RETURNS BOOKS KINDLY VISIT THE PUBLIC LIBRARY. DON'T FORGET TO BRING YOUR STUDENT ID/ANY VALID ID'S")
+            println("REMINDERS: FOR ALL RETURNS BOOKS KINDLY VISIT THE PUBLIC LIBRARY. DON'T FORGET TO BRING YOUR STUDENT ID/ANY VALID ID'S. ALSO, TAKE NOTE OF YOU BORROWER'S REFERENCE NUMBER")
 
     }
 }

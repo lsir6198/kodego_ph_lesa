@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20cf471-eb8f-4669-8b5f-fb51261e5ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01J.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity01J.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02A.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02B.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02C.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02E.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity02E.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03A01D.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03A01E.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03B.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03A01F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity03C.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3fordraftonly.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +41,37 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Lesa Siroy/kodego_ph_lesa&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Activity01JKt">
-    <configuration name="Activity01DKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Activity01DKt" />
+  <component name="RunManager" selected="Kotlin.Testcode3fordraftonlyKt">
+    <configuration name="Activity02BKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity02BKt" />
       <module name="kodego_ph_lesa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity01IKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Activity01IKt" />
+    <configuration name="Activity02CKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity02CKt" />
       <module name="kodego_ph_lesa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity01JKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Activity01JKt" />
+    <configuration name="Activity02EKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity02EKt" />
       <module name="kodego_ph_lesa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testcode3Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kodego_ph_assignments_siroy.Testcode3Kt" />
+    <configuration name="Activity03AKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity03AKt" />
       <module name="kodego_ph_lesa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testcode3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testcode3Kt" />
+    <configuration name="Testcode3fordraftonlyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testcode3fordraftonlyKt" />
       <module name="kodego_ph_lesa" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Activity01JKt" />
-        <item itemvalue="Kotlin.Testcode3Kt (1)" />
-        <item itemvalue="Kotlin.Testcode3Kt" />
-        <item itemvalue="Kotlin.Activity01IKt" />
-        <item itemvalue="Kotlin.Activity01DKt" />
+        <item itemvalue="Kotlin.Testcode3fordraftonlyKt" />
+        <item itemvalue="Kotlin.Activity03AKt" />
+        <item itemvalue="Kotlin.Activity02EKt" />
+        <item itemvalue="Kotlin.Activity02CKt" />
+        <item itemvalue="Kotlin.Activity02BKt" />
       </list>
     </recent_temporary>
   </component>
