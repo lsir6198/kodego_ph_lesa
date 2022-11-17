@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20cf471-eb8f-4669-8b5f-fb51261e5ab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/oop/Cashier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/oop/Chef.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/oop/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/oop/Manager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/oop/Person.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercises/OOP.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3fordraftonly.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3fordraftonly.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -29,22 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lesa Siroy/kodego_ph_lesa&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Lesa Siroy/Kodego_Project"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.Testcode3fordraftonlyKt">
-    <configuration name="Activity02BKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Activity02BKt" />
-      <module name="kodego_ph_lesa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Activity02CKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Activity02CKt" />
       <module name="kodego_ph_lesa" />
@@ -66,6 +67,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.oop.MainKt" />
+      <module name="kodego_ph_lesa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testcode3fordraftonlyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Testcode3fordraftonlyKt" />
       <module name="kodego_ph_lesa" />
@@ -75,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.Testcode3fordraftonlyKt" />
         <item itemvalue="Kotlin.Activity03AKt" />
         <item itemvalue="Kotlin.Activity02EKt" />
         <item itemvalue="Kotlin.Activity02CKt" />
-        <item itemvalue="Kotlin.Activity02BKt" />
       </list>
     </recent_temporary>
   </component>
