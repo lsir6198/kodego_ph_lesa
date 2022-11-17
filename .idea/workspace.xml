@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20cf471-eb8f-4669-8b5f-fb51261e5ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity04A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity04B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kodego_ph_assignments_siroy/Activity04C.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3fordraftonly.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/testcode/testcode3fordraftonly.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
